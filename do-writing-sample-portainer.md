@@ -7,7 +7,7 @@ The Transport Layer Security (TLS) is a cryptographic protocol which facilitates
 
 The preferred method of using Portainer is as a container because is simpler to implement and offers more flexibility. You can choose to run the application from your Docker host or from your local machine. In both cases, a secure connection is highly recommended.
 
-In this tutorial you will install Portainer on your local machine and establish a secure TLS connection with a remote Docker host that runs Ubuntu 16.04.
+In this tutorial, you will install Portainer locally and then communicate securely using TLS with a remote Docker host running Ubuntu 16.04.
 
 ![Secure TLS Portainer Communication](https://i.imgur.com/x0r9kxj.png)
 
@@ -447,6 +447,6 @@ Using the procedures described in this tutorial you can create the new client/se
 
 ## Conclusion
 
-You now can enjoy the convenient benefits of Portainer to manage your Docker hosts from your local machine using a secure TLS connection.
+You now can enjoy the convenient benefits of Portainer to manage your Docker hosts locally using a secure TLS connection.
 
 This guide only covered a small part of Portainer features, for more information about its other functions read the official [documentation.](https://portainer.readthedocs.io/en/stable/)
